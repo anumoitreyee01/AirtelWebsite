@@ -1,7 +1,7 @@
 import * as React from 'react';
 import Card from '@mui/material/Card';
 import CardContent from '@mui/material/CardContent';
-
+import AirtelBlackSmall from './../Assets/AirtelBlackSmall.jpg';
 import Typography from '@mui/material/Typography';
 import {  CardActionArea } from '@mui/material';
 import AirtelBlackButton from './AirtelBlackButton';
@@ -13,6 +13,8 @@ export default function AirtelBlackCard() {
       <CardActionArea>
         
         <CardContent>
+          <br></br><br></br><br></br><br></br><br></br>
+          <img src={AirtelBlackSmall} alt="airtel" />
           <Typography  variant="body2" color="text.secondary">
            <center> BLACK</center>
           </Typography>
@@ -20,6 +22,8 @@ export default function AirtelBlackCard() {
           Enjoy first 30 days free of a new service with Airtel Black
           </Typography>
           <AirtelBlackButton/>
+          
+          <br></br><br></br><br></br><br></br><br></br>
         </CardContent>
       </CardActionArea>
       

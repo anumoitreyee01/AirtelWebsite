@@ -12,6 +12,9 @@ import AirtelBlackCard from '../Components/AirtelBlack';
 import AirtelSmallCard from '../Components/AirtelSmallCard';
 import AirtelThanksCard from '../Components/AirtelThanksCard';
 import TextButton from '../Components/BackToTopTextButton';
+import SingleLineImageList from '../Components/ImageList';
+
+
 
 
 
@@ -37,7 +40,7 @@ export default function Home() {
           <br></br>
           <p> Entertainment</p>
           <SwipeableTextMobileStepper/>
-          
+          <SingleLineImageList/>
           <AirtelThanksCard/>
          
          <TextButton/>

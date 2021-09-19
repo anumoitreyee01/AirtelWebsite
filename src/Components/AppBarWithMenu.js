@@ -9,6 +9,8 @@ import AccountCircle from '@mui/icons-material/AccountCircle';
 import FormGroup from '@mui/material/FormGroup';
 import MenuItem from '@mui/material/MenuItem';
 import Menu from '@mui/material/Menu';
+import LogoAirtel from './../Assets/LogoAirtel.jpg';
+
 
 export default function MenuAppBar() {
   const [auth, setAuth] = React.useState(true);
@@ -44,7 +46,7 @@ export default function MenuAppBar() {
           </IconButton>
           
           <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
-          <img src="logo.png" alt="airtellogo"  />
+          <img src="LogoAirtel" alt="airtellogo"  />
           </Typography>
           {auth && (
             <div>
