@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/AirtelWebsite/static/css/main.7f82aab8.chunk.css",
+    "main.js": "/AirtelWebsite/static/js/main.c27c8207.chunk.js",
+    "main.js.map": "/AirtelWebsite/static/js/main.c27c8207.chunk.js.map",
+    "runtime-main.js": "/AirtelWebsite/static/js/runtime-main.06519da2.js",
+    "runtime-main.js.map": "/AirtelWebsite/static/js/runtime-main.06519da2.js.map",
+    "static/js/2.aa47a05d.chunk.js": "/AirtelWebsite/static/js/2.aa47a05d.chunk.js",
+    "static/js/2.aa47a05d.chunk.js.map": "/AirtelWebsite/static/js/2.aa47a05d.chunk.js.map",
+    "index.html": "/AirtelWebsite/index.html",
+    "static/css/main.7f82aab8.chunk.css.map": "/AirtelWebsite/static/css/main.7f82aab8.chunk.css.map",
+    "static/js/2.aa47a05d.chunk.js.LICENSE.txt": "/AirtelWebsite/static/js/2.aa47a05d.chunk.js.LICENSE.txt",
+    "static/media/LogoAirtel.234a3012.jpg": "/AirtelWebsite/static/media/LogoAirtel.234a3012.jpg",
+    "static/media/herapheri.9ef16253.jpg": "/AirtelWebsite/static/media/herapheri.9ef16253.jpg",
+    "static/media/loki.ee602532.jpg": "/AirtelWebsite/static/media/loki.ee602532.jpg",
+    "static/media/mastani.c3f97238.jpg": "/AirtelWebsite/static/media/mastani.c3f97238.jpg",
+    "static/media/rabindra.346295bc.jpg": "/AirtelWebsite/static/media/rabindra.346295bc.jpg",
+    "static/media/rangbaaz.d504d663.jpg": "/AirtelWebsite/static/media/rangbaaz.d504d663.jpg",
+    "static/media/vector.583580a3.jpg": "/AirtelWebsite/static/media/vector.583580a3.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.06519da2.js",
+    "static/js/2.aa47a05d.chunk.js",
+    "static/css/main.7f82aab8.chunk.css",
+    "static/js/main.c27c8207.chunk.js"
+  ]
+}
