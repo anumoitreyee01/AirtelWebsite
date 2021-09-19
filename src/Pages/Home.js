@@ -3,7 +3,7 @@ import Container from '@material-ui/core/Container';
 
 
 import SwipeableTextMobileStepper from '../Components/Movies';
-import { red } from '@mui/material/colors';
+import vector from './../Assets/vector.jpg';
 
 import AirtelPrepaidCard from '../Components/AirtelPrepaidCard';
 import AirtelPostpaidCard from '../Components/AirtelPostpaidCard';
@@ -19,7 +19,7 @@ export default function Home() {
   return (
     <React.Fragment>
         <Container fixed>
-          <img src={red} alt="red"/>
+          <img src={vector} alt="vector" height="220px" width="370px" />
 
         
             
@@ -41,6 +41,7 @@ export default function Home() {
           <AirtelThanksCard/>
          
          <TextButton/>
+         <footer/>
             
         </Container>
     </React.Fragment>

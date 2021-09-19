@@ -31,7 +31,7 @@ export default function MenuAppBar() {
       <FormGroup>
         
       </FormGroup>
-      <AppBar position="static">
+      <AppBar position="relative">
         <Toolbar>
           <IconButton
             size="large"
@@ -44,7 +44,7 @@ export default function MenuAppBar() {
           </IconButton>
           
           <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
-            airtel
+          <img src="logo.png" alt="airtellogo"  />
           </Typography>
           {auth && (
             <div>
