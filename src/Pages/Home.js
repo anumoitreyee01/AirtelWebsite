@@ -11,6 +11,7 @@ import FullWidthTabs from '../Components/FullWidhTab';
 import AirtelBlackCard from '../Components/AirtelBlack';
 import AirtelSmallCard from '../Components/AirtelSmallCard';
 import AirtelThanksCard from '../Components/AirtelThanksCard';
+import TextButton from '../Components/BackToTopTextButton';
 
 
 
@@ -25,20 +26,21 @@ export default function Home() {
           <FullWidthTabs/>  
          
           <SwipeableTextMobileStepper/>
-          <br></br>
+          
           <AirtelPrepaidCard/>
-          <br></br>
+          
           <AirtelPostpaidCard/>
-          <br></br>
+          
           <AirtelBlackCard/>
-          <br></br>
+          
           <AirtelSmallCard/>
-          <br></br>
-          <AirtelThanksCard/>
-
-
-
+          
+          <p> Entertainment</p>
           <SwipeableTextMobileStepper/>
+          
+          <AirtelThanksCard/>
+         
+         <TextButton/>
             
         </Container>
     </React.Fragment>

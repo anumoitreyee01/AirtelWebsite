@@ -21,9 +21,7 @@ function App() {
             <Route path={process.env.PUBLIC_URL + '/gallery'}  > <Gallery/> </Route>
           </Switch>
 
-      <footer className="App-footer">
-        This is a footer
-      </footer>
+      
     </div>
   );
   }
