@@ -28,13 +28,13 @@ export default function Home() {
           <SwipeableTextMobileStepper/>
           
           <AirtelPrepaidCard/>
-          
+          <br></br>
           <AirtelPostpaidCard/>
-          
+          <br></br>
           <AirtelBlackCard/>
-          
+          <br></br>
           <AirtelSmallCard/>
-          
+          <br></br>
           <p> Entertainment</p>
           <SwipeableTextMobileStepper/>
           

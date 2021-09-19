@@ -1,9 +1,9 @@
 import * as React from 'react';
 import Card from '@mui/material/Card';
 import CardContent from '@mui/material/CardContent';
-import CardMedia from '@mui/material/CardMedia';
+import { CardActionArea } from '@mui/material';
 import Typography from '@mui/material/Typography';
-import { Button, CardActionArea, CardActions } from '@mui/material';
+
 import ContainedButtons from './Button';
 
 export default function AirtelPostpaidCard() {
@@ -12,6 +12,7 @@ export default function AirtelPostpaidCard() {
       <CardActionArea>
         
         <CardContent>
+        <br></br><br></br><br></br>
           <Typography  variant="body2" color="text.secondary">
            <center> Airtel Unlimited Postpaid </center>
           </Typography>
