@@ -5,10 +5,10 @@ import ImageListItem from '@material-ui/core/ImageListItem';
 import ImageListItemBar from '@material-ui/core/ImageListItemBar';
 import IconButton from '@material-ui/core/IconButton';
 import StarBorderIcon from '@material-ui/icons/StarBorder';
-//import itemData from './itemData';
-import image from './../Assets/loki.jpg';
+
+import image1 from './../Assets/loki.jpg';
 import image2 from './../Assets/rangbaaz.jpg';
-import image3 from './../Assets/ranbindra.jpg';
+import image3 from './../Assets/rabindra.jpg';
 import image4 from './../Assets/mastani.jpg';
 import image5 from './../Assets/herapheri.jpg';
 
@@ -22,7 +22,7 @@ const useStyles = makeStyles((theme) => ({
   },
   imageList: {
     flexWrap: 'nowrap',
-    // Promote the list into his own layer on Chrome. This cost memory but helps keeping high FPS.
+    
     transform: 'translateZ(0)',
   },
   title: {
@@ -38,7 +38,7 @@ const useStyles = makeStyles((theme) => ({
   
   const itemData = [
     {
-    img: image,
+    img: image1,
      title: 'Disney + Hotstar',
      author: 'Only â‚¹399',
     },
