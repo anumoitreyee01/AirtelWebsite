@@ -29,32 +29,24 @@ export default function MenuAppBar() {
   };
 
   return (
-    <Box sx={{ flexGrow: 1 }}>
+    <Box sx={{ flexGrow: 2 }}>
       <FormGroup>
-        <FormControlLabel
-          control={
-            <Switch
-              checked={auth}
-              onChange={handleChange}
-              aria-label="login switch"
-            />
-          }
-          label={auth ? 'Logout' : 'Login'}
-        />
+        
       </FormGroup>
       <AppBar position="static">
         <Toolbar>
           <IconButton
             size="large"
             edge="start"
-            color="inherit"
+            color="default"
             aria-label="menu"
             sx={{ mr: 2 }}
           >
             <MenuIcon />
           </IconButton>
+          
           <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
-            Photos
+            airtel
           </Typography>
           {auth && (
             <div>
