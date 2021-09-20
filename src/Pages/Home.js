@@ -5,7 +5,7 @@ import Container from '@material-ui/core/Container';
 import SwipeableTextMobileStepper from '../Components/Movies';
 import { red } from '@mui/material/colors';
 import BasicTabs from '../Components/Tab';
-;
+
 
 
 export default function Home() {
@@ -15,9 +15,9 @@ export default function Home() {
           <img src={red} alt="red"/>
 
         
-            <BasicTabs/>
             
             
+          <BasicTabs/>
             <SwipeableTextMobileStepper/>
             
         </Container>
