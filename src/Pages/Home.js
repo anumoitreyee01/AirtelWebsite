@@ -9,6 +9,7 @@ import AirtelPrepaidCard from '../Components/AirtelPrepaidCard';
 import AirtelPostpaidCard from '../Components/AirtelPostpaidCard';
 import FullWidthTabs from '../Components/FullWidhTab';
 import AirtelBlackCard from '../Components/AirtelBlack';
+import AirtelSmallCard from '../Components/AirtelSmallCard';
 
 
 
@@ -23,9 +24,14 @@ export default function Home() {
           <FullWidthTabs/>  
          
           <SwipeableTextMobileStepper/>
+          <br></br>
           <AirtelPrepaidCard/>
+          <br></br>
           <AirtelPostpaidCard/>
+          <br></br>
           <AirtelBlackCard/>
+          <br></br>
+          <AirtelSmallCard/>
 
 
 

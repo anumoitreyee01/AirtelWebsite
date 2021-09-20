@@ -4,22 +4,21 @@ import CardContent from '@mui/material/CardContent';
 import CardMedia from '@mui/material/CardMedia';
 import Typography from '@mui/material/Typography';
 import { Button, CardActionArea, CardActions } from '@mui/material';
-import AirtelBlackButton from './AirtelBlackButton';
 
 
-export default function AirtelBlackCard() {
+export default function AirtelSmallCard() {
   return (
     <Card sx={{ maxWidth: 345 }}>
       <CardActionArea>
         
         <CardContent>
-          <Typography  variant="body2" color="text.secondary">
-           <center> BLACK</center>
+          <Typography variant="body2" color="text.secondary" >
+            open an airtel money wallet 
+            <br></br>
+            and get upto ₹40 cashback
+
           </Typography>
-          <Typography gutterBottom variant="h5" component="div">
-          Enjoy first 30 days free of a new service with Airtel Black
-          </Typography>
-          <AirtelBlackButton/>
+         
         </CardContent>
       </CardActionArea>
       
