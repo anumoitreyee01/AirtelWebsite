@@ -10,14 +10,14 @@ const useStyles = makeStyles((theme) => ({
   },
 }));
 
-export default function ContainedButtons() {
+export default function AirtelBlackButton() {
   const classes = useStyles();
 
   return (
     <div className={classes.root}>
     
-      <Button variant="contained" color="primary">
-        View Plans
+      <Button variant="contained" color="secondary">
+        Explore Airtel Black
       </Button>
       
     </div>
