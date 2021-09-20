@@ -6,7 +6,7 @@ export default function RechargeButtons() {
   return (
     <Stack spacing={2} direction="row">
       
-      <Button variant="contained">Contained</Button>
+      <Button variant="contained" >Recharge</Button>
       
     </Stack>
   );

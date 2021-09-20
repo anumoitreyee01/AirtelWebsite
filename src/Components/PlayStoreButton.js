@@ -10,14 +10,14 @@ const useStyles = makeStyles((theme) => ({
   },
 }));
 
-export default function ContainedButtons() {
+export default function PlayStoreButton() {
   const classes = useStyles();
 
   return (
     <div className={classes.root}>
     
-      <Button variant="Recharge" color="primary">
-        View Plans
+      <Button variant="contained" color="secondary">
+        Get it on Google Play
       </Button>
       
     </div>

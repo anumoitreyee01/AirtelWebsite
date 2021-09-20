@@ -10,6 +10,7 @@ import AirtelPostpaidCard from '../Components/AirtelPostpaidCard';
 import FullWidthTabs from '../Components/FullWidhTab';
 import AirtelBlackCard from '../Components/AirtelBlack';
 import AirtelSmallCard from '../Components/AirtelSmallCard';
+import AirtelThanksCard from '../Components/AirtelThanksCard';
 
 
 
@@ -32,6 +33,8 @@ export default function Home() {
           <AirtelBlackCard/>
           <br></br>
           <AirtelSmallCard/>
+          <br></br>
+          <AirtelThanksCard/>
 
 
 

@@ -10,14 +10,14 @@ const useStyles = makeStyles((theme) => ({
   },
 }));
 
-export default function ContainedButtons() {
+export default function AppStoreButton() {
   const classes = useStyles();
 
   return (
     <div className={classes.root}>
     
-      <Button variant="Recharge" color="primary">
-        View Plans
+      <Button variant="contained" color="primary">
+        Download on the App Store
       </Button>
       
     </div>
